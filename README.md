@@ -4,10 +4,10 @@ This repo is for the 2017 IFCS(Conference of the International Federation of Cla
 This challenge is about data clustering on low back pain patients. 
 We won the data challenge in Aug, 2017.
 
-# Below are the libraries needed, pls install them first if you don't have them
+# Below are the libraries needed
 #install.packages("missForest", dependencies=TRUE)
-#install.packages("mice", dependencies=TRUE)
-library(gdata)
+#install.packages("mice", dependencies=TRUE) \\
+library(gdata)\\
 library(mice) # for data imputation
 library(randomForest) # for data imputation
 library(VIM) # for data imputation
@@ -23,6 +23,6 @@ library(fpc) # for cluster.stats
 library(GGally) # for one of ggplot
 library(clustrd) # for MCA
 library(cluster) # for daisy-gower distance
-library(clustMixType) 
+library(clustMixType) \\
 
-Note: The cluca package has been updated since this work submitted, so some minor different results might be seen.
+Note: The clustrd package has been updated since this work submitted, so some minor different results might be seen.
